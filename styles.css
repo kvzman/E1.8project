@@ -1,0 +1,39 @@
+.header{
+    height:100px;
+    background-color: #101010;
+}
+
+.logo-container{
+    float: left;
+    color: white;
+}
+
+.navigation{
+    float: right;
+    margin-top:30px;
+}
+
+.navigation a{
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content p{
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 0px;
+}
